@@ -1,13 +1,5 @@
 @charset "utf-8";
 
-/* fonts */
-@font-face{
-    font-family: Mountains_OC;
-    src: url(MountainsofChristmas-Regular.ttf) format('truetype'),
-         url(MountainsofChristmas-Regular.woff) format('woff'),
-         url(MountainsofChristmas-Regular.woff2) format('woff2');
-}
-
 /* page body styles */
 
 html{
@@ -24,11 +16,32 @@ body{
 
 /* text styles */
 
-h1{
-    font-family: 'Mountains_OC', serif;
-    font-size: 90px;
+header h1{
+    font-family: 'barriceito', serif;
+    font-size: 50px;
 }
 
 img{
     float: right;
+    height: 200px;
+    width: auto;
+    margin-right: 50px;
 }
+nav{
+    width: 30%;
+}
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li{
+    list-style-type: none;
+    font-family: 'barriceito', serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* directional styles */

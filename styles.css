@@ -6,12 +6,25 @@
     src: url(MountainsofChristmas-Regular.ttf) format('truetype'),
          url(MountainsofChristmas-Regular.woff) format('woff'),
          url(MountainsofChristmas-Regular.woff2) format('woff2');
+    font-family: bebas;
+    src: url(BebasNeue-Regular.ttf) format('truetype'),
+         url(BebasNeue-Regular.woff) format('woff'),
+         url(BebasNeue-Regular.ttf) format('woff2');
+    font-family: Tomorrow;
+    src: url(Tomorrow-Medium.ttf) format('truetype'),
+         url(Tomorrow-Medium.ttf) format('woff'),
+         url(Tomorrow-Medium.ttf) format('woff2');
+    font-family: barriceito;
+    src: url(Barriecito-Regular.ttf) format('truetype'),
+         url(Barriecito-Regular.woff) format('woff'),
+         url(Barriecito-Regular.woff2) format('woff2');
 }
 
 /* page body styles */
 
 html{
     background-color: white;
+    width: 100%;
 }
 
 body{
@@ -20,4 +33,5 @@ body{
     padding-right: 25px;
     padding-top: 25px;
     padding-bottom: 25px;
+    width: 100%;
 }
